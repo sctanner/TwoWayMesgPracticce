@@ -1,6 +1,6 @@
 /*
- * Implementation of the one-way message client in java
- * By Srihari Nelakuditi for CSCE 416
+ * Implementation of the two-way message client in java
+ * By Steven Tanner Srihari Nelakuditi for CSCE 416
  */
 
 // Package for I/O related stuff
@@ -77,20 +77,13 @@ public class TwoWayMesgClient {
 
 				// Display the message
 				System.out.println("Server: " + message);
-			
-
 			}
+			
 			// close the socket and exit
 			toServerWriter.close();
 			sock.close();
 		
 	}
-
-
-
-
-
-
 		catch(Exception e) {
 			System.out.println(e);
 		}

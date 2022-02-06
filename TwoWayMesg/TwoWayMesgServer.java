@@ -1,6 +1,6 @@
 /*
- * Implementation of a one-way message server in java
- * By Srihari Nelakuditi for CSCE 416
+ * Implementation of a two-way message server in java
+ * By Steven Tanner and Srihari Nelakuditi for CSCE 416
  */
 
 // Package for I/O related stuff
