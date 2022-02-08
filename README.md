@@ -12,3 +12,7 @@ Then, in another terminal, run the following command to launch client:
 `java TwoWayMesgClient.java localhost 50000`
 
 This will connect the two terminals. Start by typing a message in the client terminal, then pressing enter. The message will show up on the server. The two terminals can continue sending messages back and forth until the user terminates the program or types `ctrl+d`.
+
+
+To run the single file version, 
+you run `java asMethods.java 50000` to start a server and `java asmethods.java localhost 50000` to run a client.
